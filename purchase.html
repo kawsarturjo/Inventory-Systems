@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lonagoan</title>
+    <!-- logo-icon -->
+    <link rel="icon" href="">
+    <!-- fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <!-- jquery-plugins-link -->
+    
+    <!-- bootstrap-link -->
+    <link rel="stylesheet" href="assets/css/boostrap/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/plugins/Super-Tiny-jQuery-HTML5-Date-Picker-Plugin/jquery.datepicker2.css">
+    <!-- css-link -->
+    <link rel="stylesheet" href="assets/css/sass.css">
+    <link rel="stylesheet" href="assets/css/layets.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+    <div class="main-wrapper">
+        <!-- -- nav-bar-- -->
+        <div class="header-container fixed-top">
+            <header class="header navbar navbar-expand-sm expand-=header">
+                <div class="header-left d-flex align-items-center">
+                    <div class="logo">
+                        <a href="index.html" style="color: white;">Lonagoan</a>
+                    </div>
+                    <a href="#" class="sidebarcollapse" id="toogleSidebar" data-placement="bottom">
+                        <span class="fa-solid fa-bars-staggered"></span>
+                    </a>
+                </div>
+                <!-- ============= Notifications ============== -->
+                <ul class="navbar-item flex-row ml-auto">
+                    <li class="nav-item dropdown user-profile-dropdown">
+                        <a href="" class="nav-link user" id="notify" data-bs-toggle="dropdown">
+                            <img src="assets/img/bell.png" alt="" class="icon">
+                            <p class="count">3</p>
+                        </a>
+
+                        <div class="dropdown-menu">
+                            <div class="dp-main-menu p-0">
+                                <a href="" class="dropdown-item message-item">
+                                    <img src="assets/img/server.png" alt="" class="user-note">
+                                    <div class="note-info-desmis">
+                                        <div class="user-notify-info">
+                                            <p class="note-name">Server Rebooted</p>
+                                            <p class="note-time">20 min ago</p>
+                                        </div>
+                                        <p class="status-link"><span class="fas fa-times"></span></p>
+                                    </div>
+                                </a>
+                                <a href="" class="dropdown-item message-item">
+                                    <img src="assets/img/server.png" alt="" class="user-note">
+                                    <div class="note-info-desmis">
+                                        <div class="user-notify-info">
+                                            <p class="note-name">Server Rebooted</p>
+                                            <p class="note-time">20 min ago</p>
+                                        </div>
+                                        <p class="status-link"><span class="fas fa-times"></span></p>
+                                    </div>
+                                </a>
+                                <a href="" class="dropdown-item message-item border-0">
+                                    <img src="assets/img/server.png" alt="" class="user-note">
+                                    <div class="note-info-desmis">
+                                        <div class="user-notify-info">
+                                            <p class="note-name">Server Rebooted</p>
+                                            <p class="note-time">20 min ago</p>
+                                        </div>
+                                        <p class="status-link"><span class="fas fa-times"></span></p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+
+                    </li>
+                    <!-- ============ Messages ============ -->
+                    <li class="nav-item dropdown user-profile-dropdown">
+                        <a href="" class="nav-link user" id="notify" data-bs-toggle="dropdown">
+                            <img src="assets/img/mesage.png" alt="" class="icon">
+                            <p class="count">5</p>
+                        </a>
+
+                        <div class="dropdown-menu">
+                            <div class="dp-main-menu p-0">
+                                <a href="" class="dropdown-item message-item">
+                                    <img src="assets/img/server.png" alt="" class="user-note">
+                                    <div class="note-info-desmis">
+                                        <div class="user-notify-info">
+                                            <p class="note-name">Server Rebooted</p>
+                                            <p class="note-time">20 min ago</p>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="" class="dropdown-item message-item">
+                                    <img src="assets/img/server.png" alt="" class="user-note">
+                                    <div class="note-info-desmis">
+                                        <div class="user-notify-info">
+                                            <p class="note-name">Server Rebooted</p>
+                                            <p class="note-time">20 min ago</p>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="" class="dropdown-item message-item">
+                                    <img src="assets/img/server.png" alt="" class="user-note">
+                                    <div class="note-info-desmis">
+                                        <div class="user-notify-info">
+                                            <p class="note-name">Server Rebooted</p>
+                                            <p class="note-time">20 min ago</p>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="" class="dropdown-item message-item">
+                                    <img src="assets/img/server.png" alt="" class="user-note">
+                                    <div class="note-info-desmis">
+                                        <div class="user-notify-info">
+                                            <p class="note-name">Server Rebooted</p>
+                                            <p class="note-time">20 min ago</p>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="" class="dropdown-item message-item border-0">
+                                    <img src="assets/img/server.png" alt="" class="user-note">
+                                    <div class="note-info-desmis">
+                                        <div class="user-notify-info">
+                                            <p class="note-name">Server Rebooted</p>
+                                            <p class="note-time">20 min ago</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                    </li>
+                    <!-- ============== User Profile ================ -->
+                    <li class="nav-item dropdown user-profile-dropdown">
+                        <a href="" class="nav-link user" id="notify" data-bs-toggle="dropdown">
+                            <img src="assets/img/profile.png" alt="" class="icon">
+                        </a>
+                        <div class="dropdown-menu">
+                            <div class="user-profile-section">
+                                <div class="media mx-auto">
+                                    <img src="assets/img/man.png" alt="" class="img-fluid">
+                                    <div class="media-body">
+                                        <h5 class="">Mohammad</h5>
+                                        <p>Super admin</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dp-main-menu p-0">
+                                <a href="" class="dropdown-item"><span class="fas fa-user"></span>Profile</a>
+                                <a href="" class="dropdown-item"><span class="fas fa-inbox"></span>Inbox</a>
+                                <a href="lock-screen.html" class="dropdown-item"><span class="fas fa-lock-open"></span>Lock Screen</a>
+                                <a href="login.html" class="dropdown-item"><span class="fas fa-outdent"></span>Log Out</a>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- ============= Settings ============ -->
+                    <li class="nav-item dropdown user-profile-dropdown">
+                        <a href="" class="nav-link user" id="notify" data-bs-toggle="dropdown">
+                            <img src="assets/img/setting.png" alt="" class="icon">
+                        </a>
+
+                        <div class="dropdown-menu" style="right: 0px;">
+                            <div class="dp-main-menu p-0">
+                                <a href="" class="dropdown-item"><span class="fas fa-plug"></span>Parmition</a>
+                                <a href="" class="dropdown-item"><span class="fas fa-user"></span>admin</a>
+                                <a href="" class="dropdown-item"><span class="fas fa-object-ungroup"></span>Design Type</a>
+                                <a href="" class="dropdown-item"><span class="fas fa-palette"></span>Color</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </header>
+        </div>
+        <!-- -- nav-bar end -- -->
+
+        <!-- ------------- Side bar start ----------------- -->
+        <div class="left-menu">
+            <div class="menubar-content">
+                <nav class="animated bounceInDown">
+                    <ul id="sidebar">
+                        <li>
+                            <a href="index.html"><i class="fa-solid fa-note-sticky"></i>Item</a>
+                        </li>
+                        <li class="active">
+                            <a href="purchase.html"><i class="fa-solid fa-cart-shopping"></i>Purchase</a>
+                        </li>
+                        <li>
+                            <a href="vendor.html"><i class="fa-solid fa-people-arrows"></i>Vendor</a>
+                        </li>
+                        <li>
+                            <a href="sale.html"><i class="fa-solid fa-people-carry-box"></i>Sale</a>
+                        </li>
+                        <li>
+                            <a href="customer.html"><i class="fa-solid fa-users"></i>Customer</a>
+                        </li>
+                        <li>
+                            <a href="search.html"><i class="fa-solid fa-magnifying-glass-location"></i>Search</a>
+                        </li>
+                        <li>
+                            <a href="reports.html"><i class="fa-solid fa-bug"></i>Reports</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <!-- ------------- Side bar End ----------------- -->
+        <div class="content-wrapper">
+            <section class="dashboard-top-sec">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="full-column-items">
+                                <div class="items-details">
+                                    <p>Purchase Details</p>
+                                </div>
+                                <form action="" method="" class="tabs-items">
+                                    <div class="row item-top">
+                                        <div class="col-4">
+                                            <div class="mb-3">
+                                                <label for="itemDetailsItemNumber">Item Number<span class="requiredIcon">*</span></label>
+                                                <input type="text" class="form-control" name="itemDetailsItemNumber" id="itemDetailsItemNumber" autocomplete="off">
+                                                <div id="itemDetailsItemNumberSuggestionsDiv" class="customListDivWidth"></div>
+                                              </div>
+                                        </div>
+                                        <div class="col-3">
+                                            <label class="d-block" for="purchaseDetailsPurchaseDate">Purchase Date<span class="requiredIcon">*</span></label>
+                                            <input type="text" name="date" id="date" data-select="datepicker" value="2018-05-24">
+                                          </div>
+                                          <div class="col-4">
+                                            <div class="mb-3">
+                                                <label for="itemDetailsProductID">Purchase ID</label>
+                                                <input class="form-control invTooltip" type="number" readonly  id="itemDetailsProductID" name="itemDetailsProductID"  style="background-color: #e9e9e9;" data-bs-toggle="tooltip" data-bs-placement="top"
+                                                data-bs-custom-class="custom-tooltip"
+                                                data-bs-title="This will be auto-generated when you add a new item">
+                                              </div>
+                                        </div>
+                                      </div>
+
+                                      <div class="row item-top">
+                                        <div class="col-5">
+                                            <div class="mb-3">
+                                                <label for="itemDetailsProductID">Item Name<span class="requiredIcon">*</span></label>
+                                                <input class="form-control invTooltip" type="number" readonly  id="itemDetailsProductID" name="itemDetailsProductID"  style="background-color: #e9e9e9;" data-bs-toggle="tooltip" data-bs-placement="top"
+                                                data-bs-custom-class="custom-tooltip"
+                                                data-bs-title="This will be auto-generated when you add a new item">
+                                              </div>
+                                        </div>
+                                        <div class="col-2">
+                                            <label for="purchaseDetailsCurrentStock">Current Stock</label>
+                                            <input type="text" class="form-control" style="background-color: #e9e9e9;" id="purchaseDetailsCurrentStock" name="purchaseDetailsCurrentStock" readonly>
+                                        </div>
+                                        <div class="col-4">
+                                            <label for="itemDetailsStatus">Vendor Name<span class="requiredIcon">*</span></label>
+                                            <select id="itemDetailsStatus" name="itemDetailsStatus" class="form-control chosenSelect form-select">
+                                              <option value="ABC company">ABC company</option>
+                                              <option value="### company">### company</option>
+                                          </select>
+                                          </div>
+                                      </div>
+
+                                      <div class="row item-top">
+                                        <div class="col-2">
+                                            <label for="purchaseDetailsQuantity">Quantity<span class="requiredIcon">*</span></label>
+                                            <input type="number" class="form-control" id="purchaseDetailsQuantity" name="purchaseDetailsQuantity" value="0">
+                                          </div>
+                                          <div class="col-2">
+                                            <label for="purchaseDetailsUnitPrice">Unit Price<span class="requiredIcon">*</span></label>
+                                            <input type="text" class="form-control" id="purchaseDetailsUnitPrice" name="purchaseDetailsUnitPrice" value="0">  
+                                          </div>
+                                          <div class="col-2">
+                                            <label for="purchaseDetailsTotal">Total Cost</label>
+                                            <input type="text" class="form-control" style="background-color: #e9e9e9;" id="purchaseDetailsTotal" name="purchaseDetailsTotal" readonly>
+                                          </div>
+                                      </div>
+                                      <div class="button-four">
+                                        <button type="button" id="addItem" class="btn btn-success">Add Purchase</button>
+                                        <button type="button" id="updateItemDetailsButton" class="btn btn-primary">Update</button>
+                                        <button type="reset" class="btn btn-secondary" id="itemClear">Clear</button>
+                                      </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    <!-- ========================== footer ================== -->
+    <footer style="bottom: 0;">
+        <div class="content-wrapper footer-wrapper">
+            <section class="dashboard-top-sec">
+                <div class="container-fluid">
+                    <div class="row align-items-end">
+                        <div class="col-lg-12 p-0">
+
+                                <div class="items-details footer-item">
+                                    <p>All Right Reserved. Developed by  <a href="#">Lonagoan</a></p>
+                                </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </footer>
+
+
+    </div>  
+
+
+
+    <!-- js-bootstrap-link -->
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <script src="assets/plugins/Super-Tiny-jQuery-HTML5-Date-Picker-Plugin/jquery.datepicker2.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

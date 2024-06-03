@@ -1,0 +1,1197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lonagoan</title>
+    <!-- logo-icon -->
+    <link rel="icon" href="">
+    <!-- fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <!-- jquery-plugins-link -->
+    <link rel="stylesheet" href="assets/css/boostrap/dataTables.dataTables.min.css">
+    <!-- bootstrap-link -->
+    <link rel="stylesheet" href="assets/css/boostrap/bootstrap.min.css">
+    <!-- css-link -->
+    <link rel="stylesheet" href="assets/css/sass.css">
+    <link rel="stylesheet" href="assets/css/layets.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+    <div class="main-wrapper">
+        <!-- -- nav-bar-- -->
+        <div class="header-container fixed-top">
+            <header class="header navbar navbar-expand-sm expand-=header">
+                <div class="header-left d-flex align-items-center">
+                    <div class="logo">
+                        <a href="index.html" style="color: white;">Lonagoan</a>
+                    </div>
+                    <a href="#" class="sidebarcollapse" id="toogleSidebar" data-placement="bottom">
+                        <span class="fa-solid fa-bars-staggered"></span>
+                    </a>
+                </div>
+                <!-- ============= Notifications ============== -->
+                <ul class="navbar-item flex-row ml-auto">
+                    <li class="nav-item dropdown user-profile-dropdown">
+                        <a href="" class="nav-link user" id="notify" data-bs-toggle="dropdown">
+                            <img src="assets/img/bell.png" alt="" class="icon">
+                            <p class="count">3</p>
+                        </a>
+
+                        <div class="dropdown-menu">
+                            <div class="dp-main-menu p-0">
+                                <a href="" class="dropdown-item message-item">
+                                    <img src="assets/img/server.png" alt="" class="user-note">
+                                    <div class="note-info-desmis">
+                                        <div class="user-notify-info">
+                                            <p class="note-name">Server Rebooted</p>
+                                            <p class="note-time">20 min ago</p>
+                                        </div>
+                                        <p class="status-link"><span class="fas fa-times"></span></p>
+                                    </div>
+                                </a>
+                                <a href="" class="dropdown-item message-item">
+                                    <img src="assets/img/server.png" alt="" class="user-note">
+                                    <div class="note-info-desmis">
+                                        <div class="user-notify-info">
+                                            <p class="note-name">Server Rebooted</p>
+                                            <p class="note-time">20 min ago</p>
+                                        </div>
+                                        <p class="status-link"><span class="fas fa-times"></span></p>
+                                    </div>
+                                </a>
+                                <a href="" class="dropdown-item message-item border-0">
+                                    <img src="assets/img/server.png" alt="" class="user-note">
+                                    <div class="note-info-desmis">
+                                        <div class="user-notify-info">
+                                            <p class="note-name">Server Rebooted</p>
+                                            <p class="note-time">20 min ago</p>
+                                        </div>
+                                        <p class="status-link"><span class="fas fa-times"></span></p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+
+                    </li>
+                    <!-- ============ Messages ============ -->
+                    <li class="nav-item dropdown user-profile-dropdown">
+                        <a href="" class="nav-link user" id="notify" data-bs-toggle="dropdown">
+                            <img src="assets/img/mesage.png" alt="" class="icon">
+                            <p class="count">5</p>
+                        </a>
+
+                        <div class="dropdown-menu">
+                            <div class="dp-main-menu p-0">
+                                <a href="" class="dropdown-item message-item">
+                                    <img src="assets/img/server.png" alt="" class="user-note">
+                                    <div class="note-info-desmis">
+                                        <div class="user-notify-info">
+                                            <p class="note-name">Server Rebooted</p>
+                                            <p class="note-time">20 min ago</p>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="" class="dropdown-item message-item">
+                                    <img src="assets/img/server.png" alt="" class="user-note">
+                                    <div class="note-info-desmis">
+                                        <div class="user-notify-info">
+                                            <p class="note-name">Server Rebooted</p>
+                                            <p class="note-time">20 min ago</p>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="" class="dropdown-item message-item">
+                                    <img src="assets/img/server.png" alt="" class="user-note">
+                                    <div class="note-info-desmis">
+                                        <div class="user-notify-info">
+                                            <p class="note-name">Server Rebooted</p>
+                                            <p class="note-time">20 min ago</p>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="" class="dropdown-item message-item">
+                                    <img src="assets/img/server.png" alt="" class="user-note">
+                                    <div class="note-info-desmis">
+                                        <div class="user-notify-info">
+                                            <p class="note-name">Server Rebooted</p>
+                                            <p class="note-time">20 min ago</p>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="" class="dropdown-item message-item border-0">
+                                    <img src="assets/img/server.png" alt="" class="user-note">
+                                    <div class="note-info-desmis">
+                                        <div class="user-notify-info">
+                                            <p class="note-name">Server Rebooted</p>
+                                            <p class="note-time">20 min ago</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                    </li>
+                    <!-- ============== User Profile ================ -->
+                    <li class="nav-item dropdown user-profile-dropdown">
+                        <a href="" class="nav-link user" id="notify" data-bs-toggle="dropdown">
+                            <img src="assets/img/profile.png" alt="" class="icon">
+                        </a>
+                        <div class="dropdown-menu">
+                            <div class="user-profile-section">
+                                <div class="media mx-auto">
+                                    <img src="assets/img/man.png" alt="" class="img-fluid">
+                                    <div class="media-body">
+                                        <h5 class="">Mohammad</h5>
+                                        <p>Super admin</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dp-main-menu p-0">
+                                <a href="" class="dropdown-item"><span class="fas fa-user"></span>Profile</a>
+                                <a href="" class="dropdown-item"><span class="fas fa-inbox"></span>Inbox</a>
+                                <a href="lock-screen.html" class="dropdown-item"><span class="fas fa-lock-open"></span>Lock Screen</a>
+                                <a href="login.html" class="dropdown-item"><span class="fas fa-outdent"></span>Log Out</a>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- ============= Settings ============ -->
+                    <li class="nav-item dropdown user-profile-dropdown">
+                        <a href="" class="nav-link user" id="notify" data-bs-toggle="dropdown">
+                            <img src="assets/img/setting.png" alt="" class="icon">
+                        </a>
+
+                        <div class="dropdown-menu" style="right: 0px;">
+                            <div class="dp-main-menu p-0">
+                                <a href="" class="dropdown-item"><span class="fas fa-plug"></span>Parmition</a>
+                                <a href="" class="dropdown-item"><span class="fas fa-user"></span>admin</a>
+                                <a href="" class="dropdown-item"><span class="fas fa-object-ungroup"></span>Design Type</a>
+                                <a href="" class="dropdown-item"><span class="fas fa-palette"></span>Color</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </header>
+        </div>
+        <!-- -- nav-bar end -- -->
+
+        <!-- ------------- Side bar start ----------------- -->
+        <div class="left-menu">
+            <div class="menubar-content">
+                <nav class="animated bounceInDown">
+                    <ul id="sidebar">
+                        <li>
+                            <a href="index.html"><i class="fa-solid fa-note-sticky"></i>Item</a>
+                        </li>
+                        <li>
+                            <a href="purchase.html"><i class="fa-solid fa-cart-shopping"></i>Purchase</a>
+                        </li>
+                        <li>
+                            <a href="vendor.html"><i class="fa-solid fa-people-arrows"></i>Vendor</a>
+                        </li>
+                        <li>
+                            <a href="sale.html"><i class="fa-solid fa-people-carry-box"></i>Sale</a>
+                        </li>
+                        <li>
+                            <a href="customer.html"><i class="fa-solid fa-users"></i>Customer</a>
+                        </li>
+                        <li class="active">
+                            <a href="search.html"><i class="fa-solid fa-magnifying-glass-location"></i>Search</a>
+                        </li>
+                        <li>
+                            <a href="reports.html"><i class="fa-solid fa-bug"></i>Reports</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <!-- ------------- Side bar End ----------------- -->
+        <div class="content-wrapper">
+            <section class="dashboard-top-sec">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="full-column-items">
+                                <div class="items-details">
+                                    <p>Search Inventory<button id="searchTablesRefresh" name="searchTablesRefresh" class="btn btn-warning float-end btn-sm">Refresh</button></p>
+                                </div>
+                                <div class="tabs-items">
+                                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                        <li class="nav-item" role="presentation">
+                                          <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Item</button>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                          <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Customer</button>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Sale</button>
+                                          </li>
+                                          <li class="nav-item" role="presentation">
+                                            <button class="nav-link" id="purchase-tab" data-bs-toggle="tab" data-bs-target="#purchase-tab-pane" type="button" role="tab" aria-controls="purchase-tab-pane" aria-selected="false">Purchase</button>
+                                          </li>
+                                          <li class="nav-item" role="presentation">
+                                            <button class="nav-link" id="vendor" data-bs-toggle="tab" data-bs-target="#vendor-tab-pane" type="button" role="tab" aria-controls="vendor-tab-pane" aria-selected="false">Vendor</button>
+                                          </li>
+                                      </ul>
+                                    <div class="tab-content" id="myTabContent">
+                                         <!-- ================= ITEM details ==================== -->
+                                        <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+                                            <div class="upload-img-p">
+                                                <p>Use the grid below to search all details of items.</p>
+                                            </div>
+                                            <div id="container">
+                                                <table id="table" class="table table-striped w-100">
+                                                    <thead class="tableth">
+                                                        <tr>
+                                                            <th>Product ID</th>
+                                                            <th>Item Number</th>
+                                                            <th>Item Name</th>
+                                                            <th>Discount %</th>
+                                                            <th>Stock</th>
+                                                            <th>Unit Price</th>
+                                                            <th>Status</th>
+                                                            <th>Description</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody class="text">
+                                                        <tr>
+                                                            <td>34</td>
+                                                            <td>1</td>
+                                                            <td>First Bag</td>
+                                                            <td>0</td>
+                                                            <td>28</td>
+                                                            <td>1500</td>
+                                                            <td>Active</td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>34</td>
+                                                            <td>1</td>
+                                                            <td>First Bag</td>
+                                                            <td>0</td>
+                                                            <td>28</td>
+                                                            <td>1500</td>
+                                                            <td>Active</td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>34</td>
+                                                            <td>1</td>
+                                                            <td>First Bag</td>
+                                                            <td>0</td>
+                                                            <td>28</td>
+                                                            <td>1500</td>
+                                                            <td>Active</td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>34</td>
+                                                            <td>1</td>
+                                                            <td>First Bag</td>
+                                                            <td>0</td>
+                                                            <td>28</td>
+                                                            <td>1500</td>
+                                                            <td>Active</td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>34</td>
+                                                            <td>1</td>
+                                                            <td>First Bag</td>
+                                                            <td>0</td>
+                                                            <td>28</td>
+                                                            <td>1500</td>
+                                                            <td>Active</td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>34</td>
+                                                            <td>1</td>
+                                                            <td>First Bag</td>
+                                                            <td>0</td>
+                                                            <td>28</td>
+                                                            <td>1500</td>
+                                                            <td>Active</td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>34</td>
+                                                            <td>1</td>
+                                                            <td>First Bag</td>
+                                                            <td>0</td>
+                                                            <td>28</td>
+                                                            <td>1500</td>
+                                                            <td>Active</td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>34</td>
+                                                            <td>1</td>
+                                                            <td>First Bag</td>
+                                                            <td>0</td>
+                                                            <td>28</td>
+                                                            <td>1500</td>
+                                                            <td>Active</td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>34</td>
+                                                            <td>1</td>
+                                                            <td>First Bag</td>
+                                                            <td>0</td>
+                                                            <td>28</td>
+                                                            <td>1500</td>
+                                                            <td>Active</td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>34</td>
+                                                            <td>1</td>
+                                                            <td>First Bag</td>
+                                                            <td>0</td>
+                                                            <td>28</td>
+                                                            <td>1500</td>
+                                                            <td>Active</td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>34</td>
+                                                            <td>1</td>
+                                                            <td>First Bag</td>
+                                                            <td>0</td>
+                                                            <td>28</td>
+                                                            <td>1500</td>
+                                                            <td>Active</td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>34</td>
+                                                            <td>1</td>
+                                                            <td>First Bag</td>
+                                                            <td>0</td>
+                                                            <td>28</td>
+                                                            <td>1500</td>
+                                                            <td>Active</td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>34</td>
+                                                            <td>1</td>
+                                                            <td>First Bag</td>
+                                                            <td>0</td>
+                                                            <td>28</td>
+                                                            <td>1500</td>
+                                                            <td>Active</td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>34</td>
+                                                            <td>1</td>
+                                                            <td>First Bag</td>
+                                                            <td>0</td>
+                                                            <td>28</td>
+                                                            <td>1500</td>
+                                                            <td>Active</td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>34</td>
+                                                            <td>1</td>
+                                                            <td>First Bag</td>
+                                                            <td>0</td>
+                                                            <td>28</td>
+                                                            <td>1500</td>
+                                                            <td>Active</td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>34</td>
+                                                            <td>1</td>
+                                                            <td>First Bag</td>
+                                                            <td>0</td>
+                                                            <td>28</td>
+                                                            <td>1500</td>
+                                                            <td>Active</td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>34</td>
+                                                            <td>1</td>
+                                                            <td>First Bag</td>
+                                                            <td>0</td>
+                                                            <td>28</td>
+                                                            <td>1500</td>
+                                                            <td>Active</td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>34</td>
+                                                            <td>1</td>
+                                                            <td>First Bag</td>
+                                                            <td>0</td>
+                                                            <td>28</td>
+                                                            <td>1500</td>
+                                                            <td>Active</td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>34</td>
+                                                            <td>1</td>
+                                                            <td>First Bag</td>
+                                                            <td>0</td>
+                                                            <td>28</td>
+                                                            <td>1500</td>
+                                                            <td>Active</td>
+                                                            <td></td>
+                                                        </tr>
+                                                    </tbody>
+                                                    <thead>
+                                                        <tr>
+                                                            <th>Product ID</th>
+                                                            <th>Item Number</th>
+                                                            <th>Item Name</th>
+                                                            <th>Discount %</th>
+                                                            <th>Stock</th>
+                                                            <th>Unit Price</th>
+                                                            <th>Status</th>
+                                                            <th>Description</th>
+                                                        </tr>
+                                                    </thead>
+                                                </table>
+                                            </div>
+
+                                        </div>
+                                         <!-- ================= CUSTOMER details ==================== -->
+                                        <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+                                            <div class="upload-img-p">
+                                                <p>Use the grid below to search all details of items.</p>
+                                            </div>
+                                            <div id="container-fluid">
+                                                <table id="table-one" class="table table-striped w-100">
+                                                    <thead class="tableth">
+                                                        <tr>
+                                                            <th>Customer ID</th>
+                                                            <th>Full Name</th>
+                                                            <th>Email</th>
+                                                            <th>Mobile</th>
+                                                            <th>Phone 2</th>
+                                                            <th>Address</th>
+                                                            <th>Address 2</th>
+                                                            <th>City</th>
+                                                            <th>District</th>
+                                                            <th>Status</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody class="text">
+                                                        <tr>
+                                                            <td>34</td>
+                                                            <td>1</td>
+                                                            <td>First Bag</td>
+                                                            <td>0</td>
+                                                            <td>28</td>
+                                                            <td>1500</td>
+                                                            <td>Active</td>
+                                                            <td></td>
+                                                            <td></td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>34</td>
+                                                            <td>1</td>
+                                                            <td>First Bag</td>
+                                                            <td>0</td>
+                                                            <td>28</td>
+                                                            <td>1500</td>
+                                                            <td>Active</td>
+                                                            <td></td>
+                                                            <td></td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>34</td>
+                                                            <td>1</td>
+                                                            <td>First Bag</td>
+                                                            <td>0</td>
+                                                            <td>28</td>
+                                                            <td>1500</td>
+                                                            <td>Active</td>
+                                                            <td></td>
+                                                            <td></td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>34</td>
+                                                            <td>1</td>
+                                                            <td>First Bag</td>
+                                                            <td>0</td>
+                                                            <td>28</td>
+                                                            <td>1500</td>
+                                                            <td>Active</td>
+                                                            <td></td>
+                                                            <td></td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>34</td>
+                                                            <td>1</td>
+                                                            <td>First Bag</td>
+                                                            <td>0</td>
+                                                            <td>28</td>
+                                                            <td>1500</td>
+                                                            <td>Active</td>
+                                                            <td></td>
+                                                            <td></td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>34</td>
+                                                            <td>1</td>
+                                                            <td>First Bag</td>
+                                                            <td>0</td>
+                                                            <td>28</td>
+                                                            <td>1500</td>
+                                                            <td>Active</td>
+                                                            <td></td>
+                                                            <td></td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>34</td>
+                                                            <td>1</td>
+                                                            <td>First Bag</td>
+                                                            <td>0</td>
+                                                            <td>28</td>
+                                                            <td>1500</td>
+                                                            <td>Active</td>
+                                                            <td></td>
+                                                            <td></td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>34</td>
+                                                            <td>1</td>
+                                                            <td>First Bag</td>
+                                                            <td>0</td>
+                                                            <td>28</td>
+                                                            <td>1500</td>
+                                                            <td>Active</td>
+                                                            <td></td>
+                                                            <td></td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>34</td>
+                                                            <td>1</td>
+                                                            <td>First Bag</td>
+                                                            <td>0</td>
+                                                            <td>28</td>
+                                                            <td>1500</td>
+                                                            <td>Active</td>
+                                                            <td></td>
+                                                            <td></td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>34</td>
+                                                            <td>1</td>
+                                                            <td>First Bag</td>
+                                                            <td>0</td>
+                                                            <td>28</td>
+                                                            <td>1500</td>
+                                                            <td>Active</td>
+                                                            <td></td>
+                                                            <td></td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>34</td>
+                                                            <td>1</td>
+                                                            <td>First Bag</td>
+                                                            <td>0</td>
+                                                            <td>28</td>
+                                                            <td>1500</td>
+                                                            <td>Active</td>
+                                                            <td></td>
+                                                            <td></td>
+                                                            <td></td>
+                                                        </tr>
+                                                    </tbody>
+                                                    <thead>
+                                                        <tr>
+                                                            <th>Customer ID</th>
+                                                            <th>Full Name</th>
+                                                            <th>Email</th>
+                                                            <th>Mobile</th>
+                                                            <th>Phone 2</th>
+                                                            <th>Address</th>
+                                                            <th>Address 2</th>
+                                                            <th>City</th>
+                                                            <th>District</th>
+                                                            <th>Status</th>
+                                                        </tr>
+                                                    </thead>
+                                                </table>
+                                            </div>
+                                        </div>
+                                        <!-- ================= SALE details ==================== -->
+                                        <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+                                            <div class="upload-img-p">
+                                                <p>Use the grid below to search all details of items.</p>
+                                            </div>
+                                            <div id="container-fluid">
+                                                <table id="table-two" class="table table-striped w-100">
+                                                    <thead class="tableth">
+                                                        <tr>
+                                                            <th>Sale ID</th>
+                                                            <th>Item Number</th>
+                                                            <th>Customer ID</th>
+                                                            <th>Customer Name</th>
+                                                            <th>Item Name</th>
+                                                            <th>Sale Date</th>
+                                                            <th>Discount %</th>
+                                                            <th>Quantity</th>
+                                                            <th>Unit Price</th>
+                                                            <th>Total Price</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody class="text">
+                                                        <tr>
+                                                            <td>34</td>
+                                                            <td>1</td>
+                                                            <td>First Bag</td>
+                                                            <td>0</td>
+                                                            <td>28</td>
+                                                            <td>1500</td>
+                                                            <td>Active</td>
+                                                            <td></td>
+                                                            <td></td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>34</td>
+                                                            <td>1</td>
+                                                            <td>First Bag</td>
+                                                            <td>0</td>
+                                                            <td>28</td>
+                                                            <td>1500</td>
+                                                            <td>Active</td>
+                                                            <td></td>
+                                                            <td></td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>34</td>
+                                                            <td>1</td>
+                                                            <td>First Bag</td>
+                                                            <td>0</td>
+                                                            <td>28</td>
+                                                            <td>1500</td>
+                                                            <td>Active</td>
+                                                            <td></td>
+                                                            <td></td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>34</td>
+                                                            <td>1</td>
+                                                            <td>First Bag</td>
+                                                            <td>0</td>
+                                                            <td>28</td>
+                                                            <td>1500</td>
+                                                            <td>Active</td>
+                                                            <td></td>
+                                                            <td></td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>34</td>
+                                                            <td>1</td>
+                                                            <td>First Bag</td>
+                                                            <td>0</td>
+                                                            <td>28</td>
+                                                            <td>1500</td>
+                                                            <td>Active</td>
+                                                            <td></td>
+                                                            <td></td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>34</td>
+                                                            <td>1</td>
+                                                            <td>First Bag</td>
+                                                            <td>0</td>
+                                                            <td>28</td>
+                                                            <td>1500</td>
+                                                            <td>Active</td>
+                                                            <td></td>
+                                                            <td></td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>34</td>
+                                                            <td>1</td>
+                                                            <td>First Bag</td>
+                                                            <td>0</td>
+                                                            <td>28</td>
+                                                            <td>1500</td>
+                                                            <td>Active</td>
+                                                            <td></td>
+                                                            <td></td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>34</td>
+                                                            <td>1</td>
+                                                            <td>First Bag</td>
+                                                            <td>0</td>
+                                                            <td>28</td>
+                                                            <td>1500</td>
+                                                            <td>Active</td>
+                                                            <td></td>
+                                                            <td></td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>34</td>
+                                                            <td>1</td>
+                                                            <td>First Bag</td>
+                                                            <td>0</td>
+                                                            <td>28</td>
+                                                            <td>1500</td>
+                                                            <td>Active</td>
+                                                            <td></td>
+                                                            <td></td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>34</td>
+                                                            <td>1</td>
+                                                            <td>First Bag</td>
+                                                            <td>0</td>
+                                                            <td>28</td>
+                                                            <td>1500</td>
+                                                            <td>Active</td>
+                                                            <td></td>
+                                                            <td></td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>34</td>
+                                                            <td>1</td>
+                                                            <td>First Bag</td>
+                                                            <td>0</td>
+                                                            <td>28</td>
+                                                            <td>1500</td>
+                                                            <td>Active</td>
+                                                            <td></td>
+                                                            <td></td>
+                                                            <td></td>
+                                                        </tr>
+                                                    </tbody>
+                                                    <thead>
+                                                        <tr>
+                                                            <th>Sale ID</th>
+                                                            <th>Item Number</th>
+                                                            <th>Customer ID</th>
+                                                            <th>Customer Name</th>
+                                                            <th>Item Name</th>
+                                                            <th>Sale Date/th>
+                                                            <th>Discount %</th>
+                                                            <th>Quantity</th>
+                                                            <th>Unit Price</th>
+                                                            <th>Total Price</th>
+                                                        </tr>
+                                                    </thead>
+                                                </table>
+                                            </div>
+                                        </div>
+                                        <!-- ========================= Purchase details ======================== -->
+                                        <div class="tab-pane fade" id="purchase-tab-pane" role="tabpanel" aria-labelledby="purchase-tab" tabindex="0">
+                                            <div class="upload-img-p">
+                                                <p>Use the grid below to search all details of items.</p>
+                                            </div>
+                                            <div id="container-fluid">
+                                                <table id="table-three" class="table table-striped w-100">
+                                                    <thead class="tableth">
+                                                        <tr>
+                                                            <th>Purchase ID</th>
+                                                            <th>Item Number</th>
+                                                            <th>Purchase Date</th>
+                                                            <th>Item Name</th>
+                                                            <th>Unit Price</th>
+                                                            <th>Quantity</th>
+                                                            <th>Vendor Name</th>
+                                                            <th>Vendor ID</th>
+                                                            <th>Total Price</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody class="text">
+                                                        <tr>
+                                                            <td>34</td>
+                                                            <td>1</td>
+                                                            <td>First Bag</td>
+                                                            <td>0</td>
+                                                            <td>28</td>
+                                                            <td>1500</td>
+                                                            <td>Active</td>
+                                                            <td></td>
+                                                            <td></td>
+                                                            
+                                                        </tr>
+                                                        <tr>
+                                                            <td>34</td>
+                                                            <td>1</td>
+                                                            <td>First Bag</td>
+                                                            <td>0</td>
+                                                            <td>28</td>
+                                                            <td>1500</td>
+                                                            <td>Active</td>
+                                                            <td></td>
+                                                            <td></td>
+                                                            
+                                                        </tr>
+                                                        <tr>
+                                                            <td>34</td>
+                                                            <td>1</td>
+                                                            <td>First Bag</td>
+                                                            <td>0</td>
+                                                            <td>28</td>
+                                                            <td>1500</td>
+                                                            <td>Active</td>
+                                                            <td></td>
+                                                            <td></td>
+                                                          
+                                                        </tr>
+                                                        <tr>
+                                                            <td>34</td>
+                                                            <td>1</td>
+                                                            <td>First Bag</td>
+                                                            <td>0</td>
+                                                            <td>28</td>
+                                                            <td>1500</td>
+                                                            <td>Active</td>
+                                                            <td></td>
+                                                            <td></td>
+                                                         
+                                                        </tr>
+                                                        <tr>
+                                                            <td>34</td>
+                                                            <td>1</td>
+                                                            <td>First Bag</td>
+                                                            <td>0</td>
+                                                            <td>28</td>
+                                                            <td>1500</td>
+                                                            <td>Active</td>
+                                                            <td></td>
+                                                            <td></td>
+                                                       
+                                                        </tr>
+                                                        <tr>
+                                                            <td>34</td>
+                                                            <td>1</td>
+                                                            <td>First Bag</td>
+                                                            <td>0</td>
+                                                            <td>28</td>
+                                                            <td>1500</td>
+                                                            <td>Active</td>
+                                                            <td></td>
+                                                            <td></td>
+                                                      
+                                                        </tr>
+                                                        <tr>
+                                                            <td>34</td>
+                                                            <td>1</td>
+                                                            <td>First Bag</td>
+                                                            <td>0</td>
+                                                            <td>28</td>
+                                                            <td>1500</td>
+                                                            <td>Active</td>
+                                                            <td></td>
+                                                            <td></td>
+                                                            
+                                                        </tr>
+                                                        <tr>
+                                                            <td>34</td>
+                                                            <td>1</td>
+                                                            <td>First Bag</td>
+                                                            <td>0</td>
+                                                            <td>28</td>
+                                                            <td>1500</td>
+                                                            <td>Active</td>
+                                                            <td></td>
+                                                            <td></td>
+                                                           
+                                                        </tr>
+                                                        <tr>
+                                                            <td>34</td>
+                                                            <td>1</td>
+                                                            <td>First Bag</td>
+                                                            <td>0</td>
+                                                            <td>28</td>
+                                                            <td>1500</td>
+                                                            <td>Active</td>
+                                                            <td></td>
+                                                            <td></td>
+                                                        
+                                                        </tr>
+                                                        <tr>
+                                                            <td>34</td>
+                                                            <td>1</td>
+                                                            <td>First Bag</td>
+                                                            <td>0</td>
+                                                            <td>28</td>
+                                                            <td>1500</td>
+                                                            <td>Active</td>
+                                                            <td></td>
+                                                            <td></td>
+                                                           
+                                                        </tr>
+                                                        <tr>
+                                                            <td>34</td>
+                                                            <td>1</td>
+                                                            <td>First Bag</td>
+                                                            <td>0</td>
+                                                            <td>28</td>
+                                                            <td>1500</td>
+                                                            <td>Active</td>
+                                                            <td></td>
+                                                            <td></td>
+                                                    
+                                                        </tr>
+                                                    </tbody>
+                                                    <thead>
+                                                        <tr>
+                                                            <th>Purchase ID</th>
+                                                            <th>Item Number</th>
+                                                            <th>Purchase Date</th>
+                                                            <th>Item Name</th>
+                                                            <th>Unit Price</th>
+                                                            <th>Quantity</th>
+                                                            <th>Vendor Name</th>
+                                                            <th>Vendor ID</th>
+                                                            <th>Total Price</th>
+                                                        </tr>
+                                                    </thead>
+                                                </table>
+                                            </div>
+                                        </div>
+                                        <!-- ======================= Vendor details ========================= -->
+                                        <div class="tab-pane fade" id="vendor-tab-pane" role="tabpanel" aria-labelledby="vendor-tab" tabindex="0">
+                                            <div class="upload-img-p">
+                                                <p>Use the grid below to search all details of items.</p>
+                                            </div>
+                                            <div id="container-fluid">
+                                                <table id="table-four" class="table table-striped w-100">
+                                                    <thead class="tableth">
+                                                        <tr>
+                                                            <th>Vendor ID</th>
+                                                            <th>Full Name</th>
+                                                            <th>Email</th>
+                                                            <th>Mobile</th>
+                                                            <th>Phone 2</th>
+                                                            <th>Address</th>
+                                                            <th>Address 2</th>
+                                                            <th>City</th>
+                                                            <th>District</th>
+                                                            <th>Status</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody class="text">
+                                                        <tr>
+                                                            <td>34</td>
+                                                            <td>1</td>
+                                                            <td>First Bag</td>
+                                                            <td>0</td>
+                                                            <td>28</td>
+                                                            <td>1500</td>
+                                                            <td>Active</td>
+                                                            <td></td>
+                                                            <td></td>
+                                                            <td></td>
+                                                            
+                                                        </tr>
+                                                        <tr>
+                                                            <td>34</td>
+                                                            <td>1</td>
+                                                            <td>First Bag</td>
+                                                            <td>0</td>
+                                                            <td>28</td>
+                                                            <td>1500</td>
+                                                            <td>Active</td>
+                                                            <td></td>
+                                                            <td></td>
+                                                            <td></td>
+                                                            
+                                                        </tr>
+                                                        <tr>
+                                                            <td>34</td>
+                                                            <td>1</td>
+                                                            <td>First Bag</td>
+                                                            <td>0</td>
+                                                            <td>28</td>
+                                                            <td>1500</td>
+                                                            <td>Active</td>
+                                                            <td></td>
+                                                            <td></td>
+                                                            <td></td>
+                                                          
+                                                        </tr>
+                                                        <tr>
+                                                            <td>34</td>
+                                                            <td>1</td>
+                                                            <td>First Bag</td>
+                                                            <td>0</td>
+                                                            <td>28</td>
+                                                            <td>1500</td>
+                                                            <td>Active</td>
+                                                            <td></td>
+                                                            <td></td>
+                                                            <td></td>
+                                                         
+                                                        </tr>
+                                                        <tr>
+                                                            <td>34</td>
+                                                            <td>1</td>
+                                                            <td>First Bag</td>
+                                                            <td>0</td>
+                                                            <td>28</td>
+                                                            <td>1500</td>
+                                                            <td>Active</td>
+                                                            <td></td>
+                                                            <td></td>
+                                                            <td></td>
+                                                       
+                                                        </tr>
+                                                        <tr>
+                                                            <td>34</td>
+                                                            <td>1</td>
+                                                            <td>First Bag</td>
+                                                            <td>0</td>
+                                                            <td>28</td>
+                                                            <td>1500</td>
+                                                            <td>Active</td>
+                                                            <td></td>
+                                                            <td></td>
+                                                            <td></td>
+                                                      
+                                                        </tr>
+                                                        <tr>
+                                                            <td>34</td>
+                                                            <td>1</td>
+                                                            <td>First Bag</td>
+                                                            <td>0</td>
+                                                            <td>28</td>
+                                                            <td>1500</td>
+                                                            <td>Active</td>
+                                                            <td></td>
+                                                            <td></td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>34</td>
+                                                            <td>1</td>
+                                                            <td>First Bag</td>
+                                                            <td>0</td>
+                                                            <td>28</td>
+                                                            <td>1500</td>
+                                                            <td>Active</td>
+                                                            <td></td>
+                                                            <td></td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>34</td>
+                                                            <td>1</td>
+                                                            <td>First Bag</td>
+                                                            <td>0</td>
+                                                            <td>28</td>
+                                                            <td>1500</td>
+                                                            <td>Active</td>
+                                                            <td></td>
+                                                            <td></td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>34</td>
+                                                            <td>1</td>
+                                                            <td>First Bag</td>
+                                                            <td>0</td>
+                                                            <td>28</td>
+                                                            <td>1500</td>
+                                                            <td>Active</td>
+                                                            <td></td>
+                                                            <td></td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>34</td>
+                                                            <td>1</td>
+                                                            <td>First Bag</td>
+                                                            <td>0</td>
+                                                            <td>28</td>
+                                                            <td>1500</td>
+                                                            <td>Active</td>
+                                                            <td></td>
+                                                            <td></td>
+                                                            <td></td>
+                                                        </tr>
+                                                    </tbody>
+                                                    <thead>
+                                                        <tr>
+                                                            <th>Vendor ID</th>
+                                                            <th>Full Name</th>
+                                                            <th>Email</th>
+                                                            <th>Mobile</th>
+                                                            <th>Phone 2</th>
+                                                            <th>Address</th>
+                                                            <th>Address 2</th>
+                                                            <th>City</th>
+                                                            <th>District</th>
+                                                            <th>Status</th>
+                                                        </tr>
+                                                    </thead>
+                                                </table>
+                                            </div>
+                                        </div>
+                                      </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    <!-- ========================== footer ================== -->
+
+    <footer>
+        <div class="content-wrapper footer-wrapper">
+            <section class="dashboard-top-sec">
+                <div class="container-fluid">
+                    <div class="row align-items-end">
+                        <div class="col-lg-12 p-0">
+
+                                <div class="items-details footer-item">
+                                    <p>All Right Reserved. Developed by  <a href="#">Lonagoan</a></p>
+                                </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </footer>
+
+
+    </div>  
+
+
+
+    <!-- js-bootstrap-link -->
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/dataTables.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
